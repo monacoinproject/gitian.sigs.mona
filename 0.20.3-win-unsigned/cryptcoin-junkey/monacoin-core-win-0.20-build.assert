@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    feb4a684487eed1be275d679d69ee042dc7549d8a893901af25dd2585bc6878b  monacoin-0.20.3-win-unsigned.tar.gz
-    565a24b2725389dacbaad1a24f16eb4194544e8d05707019fcf9c43b410edc0a  monacoin-0.20.3-win64-debug.zip
-    cf5e03468b061c0a995c73bda67c9ee508d6f34d062c0d4d419823bc2986921f  monacoin-0.20.3-win64-setup-unsigned.exe
-    4a5726e891f73a0392f3e5613281e929ef453a95104b720026ed60cf7315335a  monacoin-0.20.3-win64.zip
-    6229a058fded6440bdce3b3d347416cb505e01289a213b1fbed1a2ae89818a92  src/monacoin-0.20.3.tar.gz
+    bfa52c740126d4894806851c729528bf31a33f677ab9b046a3742751a2e84755  monacoin-0.20.3-win-unsigned.tar.gz
+    59560500f1b590775e57672fd031a61ad41fe320c5abec479582cc3057186dfd  monacoin-0.20.3-win64-debug.zip
+    267baced288c878464e4644b17e28c85cac56c2f62f791c70c30ea2a5bcb42de  monacoin-0.20.3-win64-setup-unsigned.exe
+    187915306bab5abb33f33ef936968d2a1064e66b4f6c391452f73f1207dc4795  monacoin-0.20.3-win64.zip
+    835bea5b53d6a7afdfc60836f8754c94e27541851e574b1819594a73c7e41035  src/monacoin-0.20.3.tar.gz
 - in_manifest: |-
     5931e8f57a93a77ace51fede5f04ec6be1ea2438b5d2fca382aadd1318ca735f  monacoin-core-win-0.20-desc.yml
-    git:17f7e36735bcface8d4ae94bebcabd0ef37be52c monacoin
+    git:b5efe25fe08fcc12d0e90a046cc405fe58de5d5c monacoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
@@ -581,22 +581,22 @@
     bcbabe1e2c7d0eec4ed612e10b94b112dd5f06fcefa994a0c79a45d835cd21eb  zeromq-4.3.1.tar.gz
     c3e5e9fdd5004dcb542feda5ee4f0ff0744628baf8ed2dd5d66f8ca1197cb1a1  zlib-1.2.11.tar.gz
 - cache_package_manifest: |
-    83faf1185f2640eb6d2f6af0e9038242cf5bc5eae5f548e886335f461bd92d6d  x86_64-w64-mingw32/bdb/bdb-4.8.30-16bc8ac04a9.tar.gz
-    8550f8625ec42b3b0ce1918755a7f5835ec41a534618d2c899479d43e19a80a8  x86_64-w64-mingw32/bdb/bdb-4.8.30-16bc8ac04a9.tar.gz.hash
-    0b0e706483c8770dc6d62e1be2ccb4138facb94cfa9f83b68b99f1aaa349860b  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz
-    d0fcdc4ea70a2c33602aa4b53bdfe82c6477c59119035440db2e2f41d2426f5d  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz.hash
-    59cbec4b5d6721bbff5e29163b03bace8f3a7153d668ebf2728ad99af8b29e25  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz
-    cc315f2e6eeaf72c4e1a56dea01bb6c3807828fcec956cbc4b48511779b29033  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz.hash
-    4be4518be9d81d193f97d6816e70b9c945cfc5af941c13c0ed70daece26d32a9  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz
-    57b9293ca8e3180e97633b2c90ed7c3a7178a4f98f0ed6e9d5409fadb2f96bb3  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz.hash
-    e49617ce2c05c63cf9c31dc7aebb03db6ae47234bd206bf156750626c6779cb9  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz
-    d7ab0e5f07e26396e4278d2e28f8660e1ecda55061f95c337385caf05af5606a  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz.hash
-    d877d5ebb357344f8cf54e93261ed3d85a451fb9dd42e8db6bf65f93ebade4c2  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz
-    f3fe8db625580a8ce3fc75d777060d6ff15da6a5432257b03ed183e142cd3cbc  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz.hash
-    09e0b18e343210346a846482363c8960e1738ef08e172820a8f57bb535ed7f74  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz
-    8756d168bdfd01bedc8cb86d63274cd275f185741dabcfcb99283ecd71d76647  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz.hash
-    c39249faa014367e1d3fe6537df8598de397c0e4dd2031da5de217258407e4f4  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz
-    3842a05461e2525dc5d082cf41a50997aff410fa83129ef109f1e60e538b8d34  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz.hash
+    be1efae474f316d627d3f71a5aff09679c36ad15b83235ee23a638902a6c1106  x86_64-w64-mingw32/bdb/bdb-4.8.30-16bc8ac04a9.tar.gz
+    762f6683d489fe16c86090638b352daa705590098b28c3f9e9f8c3278574a30d  x86_64-w64-mingw32/bdb/bdb-4.8.30-16bc8ac04a9.tar.gz.hash
+    7137de4e4d302c2cf47c13d89f5aa2ae8bb9245b1cb6dd344693d1b17626909f  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz
+    875a84152a578d6c610bfacca658593953e721c7195cacca3b015bc7f5ee5f79  x86_64-w64-mingw32/boost/boost-1_70_0-f1f7cc87bed.tar.gz.hash
+    f8c8d1e10f52dc9b1a41f0bb00abc1da489a21678e4c0cbf7eeb1c723253df80  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz
+    debb8eac535f5ab69bf27bf9605864b5936203245bed6afc46e37b42bb5d8f84  x86_64-w64-mingw32/libevent/libevent-2.1.11-stable-87365023708.tar.gz.hash
+    fee0d50282604aed6774f70ec1f916f7a2133d527159f5647c0dfc3ef4ad4baa  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz
+    9e7ada0d32cc53217ec583ddcdbdc6c1fc3990d96647b6aca31385ac28598e70  x86_64-w64-mingw32/miniupnpc/miniupnpc-2.0.20180203-32a64edbec2.tar.gz.hash
+    1bed802e89ed42bac72a6db6f9da690c3678337fc895c7a34ce1ee74ad95189a  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz
+    1059bc23dd6236e59f08fc01bd1a3674db088019731daed55bf3578d56ee6bde  x86_64-w64-mingw32/qrencode/qrencode-3.4.4-b1676f3c9eb.tar.gz.hash
+    e2076eb229b9534b24d8bfe6da63b76b00627d0e5133b44448551ff1b3902d28  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz
+    89713b3400ca2d4fbae7e2161bc75a956ab93400074bd62a9ce1c5db6cae4068  x86_64-w64-mingw32/qt/qt-5.9.8-36c5c0bd661.tar.gz.hash
+    f11be14b6258bd38ffe182f1b8003cba734253452adf91d51fca6539195cc237  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz
+    8bb5c89df1696d7d67a87a1959a4734ad0163146fe306c7f818abcb2525cc814  x86_64-w64-mingw32/zeromq/zeromq-4.3.1-751d596cd8d.tar.gz.hash
+    24434e2a48d14757c6e537bf33f39b1a2ad552f043095fc8c76ca0ef6a317aaf  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz
+    131e29144e461a7add4c3d7698790e41f4c94269c86a9bf2c3b75419fdacb19e  x86_64-w64-mingw32/zlib/zlib-1.2.11-abc2d84ca3a.tar.gz.hash
 - release: 0.20.3-win-unsigned
 - name: monacoin-core-win-0.20
 - type: build
