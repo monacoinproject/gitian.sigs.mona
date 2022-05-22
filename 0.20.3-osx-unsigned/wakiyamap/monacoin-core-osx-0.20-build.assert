@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    bded7c1965ba3bcada92a4285a6803302abe4613317014cbba7095bcf0af0f57  monacoin-0.20.3-osx-unsigned.dmg
-    9f5b7c40a753b709829db82b72dd22cb72a16c61e45c6b5c6a2bb3eab23f2887  monacoin-0.20.3-osx-unsigned.tar.gz
-    61d9a4b6c194b90e9cb4d5542456a34050eca87de00b79566482e187b8c3e554  monacoin-0.20.3-osx64.tar.gz
-    6229a058fded6440bdce3b3d347416cb505e01289a213b1fbed1a2ae89818a92  src/monacoin-0.20.3.tar.gz
+    2c7bab740151fc8e656b99fe57c1a3c53a7ed1505de60a90a72a303fc501b55c  monacoin-0.20.3-osx-unsigned.dmg
+    cacd73dbcf93d419e012e583a1563370724b79eb507119e887b3921b776d7da9  monacoin-0.20.3-osx-unsigned.tar.gz
+    af5e9d1518d9af077340eb5eb5e197feb5089e9c4dbe73ecc98b29bf64fafda2  monacoin-0.20.3-osx64.tar.gz
+    835bea5b53d6a7afdfc60836f8754c94e27541851e574b1819594a73c7e41035  src/monacoin-0.20.3.tar.gz
 - in_manifest: |-
     ed6d9d5d6d248c61f2dc0c6522ecb6d61ae19c620f0378beae96f61292e5edba  monacoin-core-osx-0.20-desc.yml
     328aff47e28c17093d59a72712a9b2e62cd8a8b87bbe03f91abb32960b413f0f  MacOSX10.14.sdk.tar.gz
-    git:17f7e36735bcface8d4ae94bebcabd0ef37be52c monacoin
+    git:b5efe25fe08fcc12d0e90a046cc405fe58de5d5c monacoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

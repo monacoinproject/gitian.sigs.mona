@@ -1,15 +1,15 @@
 --- !!omap
 - out_manifest: |
-    150e8bd9ec91e5492019f62d1a5a6660eab75946d65959181edabd1fc711f8f5  monacoin-0.20.3-aarch64-linux-gnu-debug.tar.gz
-    725e91359ddf3c0ac4a5ef6b477bc905333d149159dcd332404b7bd116f619df  monacoin-0.20.3-aarch64-linux-gnu.tar.gz
-    9fe487d9c85d1751b40f83b79d9759d22f67c3486d09746ede4129f052f25294  monacoin-0.20.3-riscv64-linux-gnu-debug.tar.gz
-    732f0da972ddbb9684e9b861c97a170158454dfc168ec1ba56916239e0865c11  monacoin-0.20.3-riscv64-linux-gnu.tar.gz
-    a9d971ff3013064122e84082043a321b1091b087dcd1e9cb697c517a22b74ba9  monacoin-0.20.3-x86_64-linux-gnu-debug.tar.gz
-    e6c04ecb555350d9b078a3d409bd6eb9972900f6890b96b14ec7367838912e40  monacoin-0.20.3-x86_64-linux-gnu.tar.gz
-    6229a058fded6440bdce3b3d347416cb505e01289a213b1fbed1a2ae89818a92  src/monacoin-0.20.3.tar.gz
+    d924768fcf8740235ff98c4655dcbc1b13e7f88f2a10528d7c6a34c4d19ff173  monacoin-0.20.3-aarch64-linux-gnu-debug.tar.gz
+    2092629c0768a5cce282687401e9396ea788a42157e4c192beff1cd3469563bd  monacoin-0.20.3-aarch64-linux-gnu.tar.gz
+    79ae87706bc93806ddeef7c5155c8272ac1bee9c2a8a800c8ea8451d10726b4d  monacoin-0.20.3-riscv64-linux-gnu-debug.tar.gz
+    5b3f45a92beece500c7cf14856c0b63efdbb52e8f76b7e0443ea70c46574f4f5  monacoin-0.20.3-riscv64-linux-gnu.tar.gz
+    76c476c04369a85980c4030b25db03992b71543139e387c939301e29867553a4  monacoin-0.20.3-x86_64-linux-gnu-debug.tar.gz
+    f74c153960d283125b5361d6aa0442de9de72243b3fabf89e34930995e0835d2  monacoin-0.20.3-x86_64-linux-gnu.tar.gz
+    835bea5b53d6a7afdfc60836f8754c94e27541851e574b1819594a73c7e41035  src/monacoin-0.20.3.tar.gz
 - in_manifest: |-
     70b386bcc84451ec4600323d6b15f8cf41fbbf163d54ce48598bc466fe8c2566  monacoin-core-linux-0.20-desc.yml
-    git:17f7e36735bcface8d4ae94bebcabd0ef37be52c monacoin
+    git:b5efe25fe08fcc12d0e90a046cc405fe58de5d5c monacoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb

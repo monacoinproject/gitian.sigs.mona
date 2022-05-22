@@ -1,13 +1,13 @@
 --- !!omap
 - out_manifest: |
-    feb4a684487eed1be275d679d69ee042dc7549d8a893901af25dd2585bc6878b  monacoin-0.20.3-win-unsigned.tar.gz
-    565a24b2725389dacbaad1a24f16eb4194544e8d05707019fcf9c43b410edc0a  monacoin-0.20.3-win64-debug.zip
-    cf5e03468b061c0a995c73bda67c9ee508d6f34d062c0d4d419823bc2986921f  monacoin-0.20.3-win64-setup-unsigned.exe
-    4a5726e891f73a0392f3e5613281e929ef453a95104b720026ed60cf7315335a  monacoin-0.20.3-win64.zip
-    6229a058fded6440bdce3b3d347416cb505e01289a213b1fbed1a2ae89818a92  src/monacoin-0.20.3.tar.gz
+    bfa52c740126d4894806851c729528bf31a33f677ab9b046a3742751a2e84755  monacoin-0.20.3-win-unsigned.tar.gz
+    59560500f1b590775e57672fd031a61ad41fe320c5abec479582cc3057186dfd  monacoin-0.20.3-win64-debug.zip
+    267baced288c878464e4644b17e28c85cac56c2f62f791c70c30ea2a5bcb42de  monacoin-0.20.3-win64-setup-unsigned.exe
+    187915306bab5abb33f33ef936968d2a1064e66b4f6c391452f73f1207dc4795  monacoin-0.20.3-win64.zip
+    835bea5b53d6a7afdfc60836f8754c94e27541851e574b1819594a73c7e41035  src/monacoin-0.20.3.tar.gz
 - in_manifest: |-
     5931e8f57a93a77ace51fede5f04ec6be1ea2438b5d2fca382aadd1318ca735f  monacoin-core-win-0.20-desc.yml
-    git:17f7e36735bcface8d4ae94bebcabd0ef37be52c monacoin
+    git:b5efe25fe08fcc12d0e90a046cc405fe58de5d5c monacoin
 - base_manifests: !!omap
   - bionic-amd64: |
       d451eb00b2d0e2940e26028ea9f2fb1be4f5109010e997acfb2c46229ebd9ebe  adduser_3.116ubuntu1_all.deb
